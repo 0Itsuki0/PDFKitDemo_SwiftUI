@@ -6,11 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		987D99272D28C0FC0087BB1D /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 987D99262D28C0FC0087BB1D /* Readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		987D99262D28C0FC0087BB1D /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		988CDC582D1F78DC00374A25 /* PDFEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		987D992A2D291D550087BB1D /* ReadmeAssets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReadmeAssets;
+			sourceTree = "<group>";
+		};
 		988CDC5A2D1F78DC00374A25 /* PDFEditor */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PDFEditor;
@@ -32,6 +42,8 @@
 		988CDC4F2D1F78DC00374A25 = {
 			isa = PBXGroup;
 			children = (
+				987D992A2D291D550087BB1D /* ReadmeAssets */,
+				987D99262D28C0FC0087BB1D /* Readme.md */,
 				988CDC5A2D1F78DC00374A25 /* PDFEditor */,
 				988CDC592D1F78DC00374A25 /* Products */,
 			);
@@ -61,6 +73,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				987D992A2D291D550087BB1D /* ReadmeAssets */,
 				988CDC5A2D1F78DC00374A25 /* PDFEditor */,
 			);
 			name = PDFEditor;
@@ -109,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987D99272D28C0FC0087BB1D /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

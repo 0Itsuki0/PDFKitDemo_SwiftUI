@@ -11,7 +11,7 @@ import SwiftUI
 struct PDFEditorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DrawingView()
         }
     }
 }
