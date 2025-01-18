@@ -15,9 +15,22 @@
 		988CDC582D1F78DC00374A25 /* PDFEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		987D993B2D30C13B0087BB1D /* Exceptions for "ReadmeAssets" folder in "PDFEditor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				pdfActions.gif,
+			);
+			target = 988CDC572D1F78DC00374A25 /* PDFEditor */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		987D992A2D291D550087BB1D /* ReadmeAssets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				987D993B2D30C13B0087BB1D /* Exceptions for "ReadmeAssets" folder in "PDFEditor" target */,
+			);
 			path = ReadmeAssets;
 			sourceTree = "<group>";
 		};

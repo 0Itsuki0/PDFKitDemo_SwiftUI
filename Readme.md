@@ -4,7 +4,7 @@
 ## Generate New PDF
 [Demo Code](./PDFEditor/NewPDFView.swift)
 
-Related Blog: [SwiftUI: Create PDF 2 Ways]()
+Related Blog: [SwiftUI: Create PDF 2 Ways](https://medium.com/@itsuki.enjoy/swiftui-create-pdf-2-ways-71ce1d2f02f5)
 
 
 ![](./ReadmeAssets/newPDF.gif)
@@ -55,9 +55,24 @@ Add Interactive Form Elements (Widget annotation) to PDF
 
 [Demo Code](./PDFEditor/WidgetView.swift)
 
-Related Blog: [SwiftUI: Add Interactive Form Elements to PDF]()
+Related Blog: [SwiftUI: Add Interactive Form Elements to PDF](https://levelup.gitconnected.com/swiftui-add-interactive-form-elements-to-pdf-579b555d680f)
 
 ![](./ReadmeAssets/widgetAnnotation.gif)
+
+
+## PDF Actions
+
+Add `PDFActions` to PDF
+- `PDFActionGoTo`
+- `PDFActionURL`
+- `PDFActionResetForm`
+- `PDFActionNamed`
+
+[Demo Code](./PDFEditor/PDFActionView.swift)
+
+Related Blog: [SwiftUI: Adding PDF Actions with PDF Kit](https://medium.com/@itsuki.enjoy/swiftui-adding-pdf-actions-with-pdf-kit-34fd841cc484)
+
+![](./ReadmeAssets/pdfActions.gif)
 
 
 
@@ -74,6 +89,6 @@ to PDF.
 
 [Demo Code](./PDFEditor/DrawingView.swift)
 
-Related Blog: [SwiftUI: Add, Erase and Save Custom Drawing Annotations to PDF]()
+Related Blog: [SwiftUI: Add, Erase and Save Custom Drawing Annotations to PDF](https://medium.com/gitconnected/swiftui-add-erase-and-save-custom-drawing-annotations-to-pdf-6f971e717bb3)
 
 ![](./ReadmeAssets/customDrawing.gif)
